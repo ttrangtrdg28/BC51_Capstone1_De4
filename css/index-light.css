@@ -61,3 +61,17 @@ html {
     background-color: #0d369f;
 
 }
+/* HEADER */
+.header__top {
+    background-color: #0d369f;
+    font-size: 16px;
+    padding: 14px 15px;
+}
+.header__top a{
+    text-decoration: none;
+   padding-top: 10px;
+   margin-top 10px;
+}
+.header__top a i {
+    font-size: 14px;
+}

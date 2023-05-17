@@ -9,17 +9,20 @@ html {
     background: #fff;
     font-family: 'Montserrat', sans-serif;
 }
+
 /* STUDIOUS */
-.feature-img i{
+.feature-img i {
     font-size: 30px;
     line-height: 70px;
 }
-.feature-info h3{
+
+.feature-info h3 {
     font-size: 24px;
     line-height: 34px;
     font-weight: 600;
 }
-.feature-info a:hover{
+
+.feature-info a:hover {
     text-decoration: none;
     transition: .5s all;
     color: #ff6e65;
@@ -56,23 +59,27 @@ li {
     transition: .5s all;
     color: #ff6e65;
 }
+
 /* SERVICES */
-.services-container{
+.services-container {
     background-image: url(../images/services.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: 100%;
 }
-.services-content row{
+
+.services-content row {
     display: flex;
     flex-wrap: wrap;
     margin-left: -15px;
     margin-right: -15px;
 }
 
-.services-content icon{
+.services-content .icon {
     margin-right: 1rem;
 }
-.services-content .icon i{
+
+.services-content .icon i {
     font-size: 28px;
     background: rgb(13 54 159 / 9%);
     width: 65px;
@@ -81,16 +88,23 @@ li {
     border-radius: 50%;
     text-align: center;
 }
-.services-content h5{
+
+.services-content h5 {
     font-size: 20px;
     line-height: 30px;
     font-weight: 600;
     margin-bottom: 6px;
 }
-.services .text{
+
+.services .text {
     background-color: white;
     padding: 30px;
     border-radius: 8px;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -137,15 +151,6 @@ li {
     border-radius: 4px;
     border: none;
     transition: all 0.5s;
-}
-
-.contact .btn-style {
-    background-color: #ff6e65;
-    color: #fff;
-}
-
-.contact .btn-style:hover {
-    background-color: #0d369f;
 }
 
 /* instructor */
@@ -233,4 +238,13 @@ li {
     line-height: 28px;
     color: #707070;
     letter-spacing: 0.4px;
+}
+
+.contact .btn-style {
+    background-color: #ff6e65;
+    color: #fff;
+}
+
+.contact .btn-style:hover {
+    background-color: #0d369f;
 }

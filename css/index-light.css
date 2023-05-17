@@ -10,7 +10,6 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-
 /* HEADER */
 
 .header__top {
@@ -18,70 +17,77 @@ html {
     font-size: 16px;
     padding: 14px 15px;
 }
-.header__top a{
+
+.header__top a {
     text-decoration: none;
-   padding-top: 10px;
-   margin-top 10px;
-   color: #fff;
-   transition: all 0.5s;
+    padding-top: 10px;
+    margin-top: 10px;
+    color: #fff;
+    transition: all 0.5s;
 }
+
 .header__top a i {
     font-size: 14px;
 }
-.header__top a:hover{
-    color:#ff6e65;
+
+.header__top a:hover {
+    color: #ff6e65;
 }
 
 .header__bottom {
     height: 90px;
 }
-.navbar .navbar-brand h3{
+
+.navbar .navbar-brand h3 {
     padding-top: 10px;
     margin-left: 10px;
 }
-.navbar-nav .nav-item a{
+
+.navbar-nav .nav-item a {
     font-size: 16px;
-   font-weight: bold;
-   color: black;
+    font-weight: bold;
+    color: black;
     transition: all 0.5s;
 }
-.navbar-nav .nav-item{
-    padding: 0 12px;
-} 
+
 .navbar .navbar-brand {
     margin: 0;
     padding: 0;
     font-size: 26px;
     color: #0d369f;
-    font-weight:600;
+    font-weight: bold;
 }
-.navbar-nav {
-    width: 100%;
-    justify-content: flex-end;
-}
-.form-inline i{
+
+.form-inline i {
     padding-left: 12rem;
 }
+
 a.navbar-brand:hover {
     color: #ff6e65;
 }
+
 .navbar-nav .nav-item.active a {
-    color:  #ff6e65;
+    color: #ff6e65;
 }
-.navbar-nav .nav-item a:hover{
-    color:  #ff6e65;
+
+.navbar-nav .nav-item a:hover {
+    color: #ff6e65;
 }
+
 .custom__fixed__top {
     top: 52px;
     padding: 20px;
     transition: top 0.5s linear;
 }
+
 .scroll-active {
     top: 0px;
-    padding:8px;
+    padding: 8px;
     background-color: #fff;
     box-shadow: 1px 1px #0000001f;
-}  
+
+}
+
 /* CAROUSEL */
 .carousel-item:nth-child(1) {
     background-image: url(../images/banner2.jpg);
@@ -120,25 +126,28 @@ a.navbar-brand:hover {
     border: 1px solid black;
     background-color: #fff;
     color: #060606;
-    
+    font-weight: bold;
 }
 
 /* STUDIOUS */
-.title h3{
+.title h3 {
     font-size: 40px;
     line-height: 50px;
     font-weight: 600;
 }
-.feature-img i{
+
+.feature-img i {
     font-size: 30px;
     line-height: 70px;
 }
-.feature-info h3{
+
+.feature-info h3 {
     font-size: 24px;
     line-height: 34px;
     font-weight: 600;
 }
-.feature-info a:hover{
+
+.feature-info a:hover {
     text-decoration: none;
     transition: .5s all;
     color: #ff6e65;
@@ -181,6 +190,105 @@ li {
     transition: .5s all;
     color: #ff6e65;
 }
+
+/* STUDIOUS */
+.feature-img i {
+    font-size: 30px;
+    line-height: 70px;
+}
+
+.feature-info h3 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+}
+
+.feature-info a:hover {
+    text-decoration: none;
+    transition: .5s all;
+    color: #ff6e65;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* STUDIOUS */
+.feature-img i {
+    font-size: 30px;
+    line-height: 70px;
+}
+
+.feature-info h3 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+}
+
+.feature-info a:hover {
+    text-decoration: none;
+    transition: .5s all;
+    color: #ff6e65;
+}
+
+/* SERVICES */
+.services-container {
+    background-image: url(../images/services.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.services-content row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.services-content .icon {
+    margin-right: 1rem;
+}
+
+.services-content .icon i {
+    font-size: 28px;
+    background: rgb(13 54 159 / 9%);
+    width: 65px;
+    height: 66px;
+    line-height: 65px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.services-content h5 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.services .text {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
 /* title ở các section -> gọi class trong thẻ h */
@@ -226,16 +334,7 @@ li {
     transition: all 0.5s;
 }
 
-.contact .btn-style {
-    background-color: #ff6e65;
-    color: #fff;
-}
-
-.contact .btn-style:hover {
-    background-color: #0d369f;
-}
-
-/* instructor */
+/* INSTRUCTOR */
 .instructor .card {
     padding: 10px;
     box-shadow: 0 20px 62px rgba(4, 20, 69, 0.1);
@@ -302,7 +401,7 @@ li {
     }
 }
 
-/* contact */
+/* CONTACT */
 .contact .contact__title {
     font-size: 35px;
     font-weight: 600;
@@ -320,4 +419,97 @@ li {
     line-height: 28px;
     color: #707070;
     letter-spacing: 0.4px;
+}
+
+.contact .btn-style {
+    background-color: #ff6e65;
+    color: #fff;
+}
+
+.contact .btn-style:hover {
+    background-color: #0d369f;
+}
+
+/* FOOTER */
+footer {
+    padding: 80px 0;
+    background: #060e1f;
+}
+
+.footer__content {
+    color: #fff;
+}
+
+.footer__content h5 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(23, 54, 88, 0.4);
+}
+
+.footer__content a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #cecece;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+
+.footer__content a i {
+    font-size: 11px;
+    color: #cecece;
+    padding-right: 5px;
+}
+
+.footer__content li:hover a {
+    color: #fff;
+}
+
+.footer__contact p {
+    font-size: 15px;
+    color: #cecece;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.footer__contact p i {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.footer__contact p:hover {
+    color: #fff;
+}
+
+.footerAbout {
+    border-left: 1px solid rgba(23, 54, 88, 0.4);
+    color: #cecece;
+}
+
+.footer__social {
+    display: flex;
+}
+
+.footer__social a.footer__iconSocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.footer__social a i {
+    font-size: 13px;
+    padding: 0;
 }

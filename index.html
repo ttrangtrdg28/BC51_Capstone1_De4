@@ -26,8 +26,62 @@
 
 <body>
   <header>
-    <div class="header__top"></div>
-    <div class="header__bottom"></div>
+    <div class="header__top d-flex align-items-center justify-content-between container-fluid ">
+      <div class="header__left">
+        <a href="https://wp.w3layouts.com/studious/contact-page/" class=" mr-4">Have any question?</a>
+        <a href="tel:+1(21) 234 4567" class=" mr-4"><i class="fa-solid fa-phone"></i> +1(21) 234 4567</a>
+        <a href="mailto:mail@example.com" class=" "><i class="fa-solid fa-envelope"></i> mail@example.com</a>
+      </div>
+      <div class="header__right">
+        <a href="https://www.facebook.com/w3layouts" class=" mr-4"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://twitter.com/w3layouts" class=" mr-4"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://twitter.com/w3layouts" class=" mr-4"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/w3layouts?_l=en_US"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <div class="header__bottom d-flex align-items-center bg-transparent py-3">
+      <nav id="scroll-nav" class="navbar container-fluid  navbar-expand-lg fixed-top custom__fixed__top">
+        <a class="navbar-brand d-flex" href="#">
+          <img src="./images/logo.png" alt="">
+          <h3>Studious</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME <span class="sr-only ">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                PAGE
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">BLOG POSTS</a>
+                <a class="dropdown-item" href="#">404 PAGE</a>
+                <a class="dropdown-item" href="#">LANDING PAGE</a>
+                <a class="dropdown-item" href="#">ELEMENTS PAGE</a>
+                <div class="dropdown-divider"></div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">CONTACT</a>
+            </li>
+          </ul>
+          <form class="form-inline position-relative my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Enter keyworld" aria-label="Search">
+            <i class="fa-solid fa-magnifying-glass position-absolute "></i>
+          </form>
+        </div>
+      </nav>
+    </div>
   </header>
 
   <section class="carousel"></section>
@@ -110,7 +164,7 @@
                     <div class="icon-info">
                       <h5>Flexible Classes</h5>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur 
+                        Lorem ipsum dolor sit amet consectetur
                       </p>
                     </div>
                   </div>

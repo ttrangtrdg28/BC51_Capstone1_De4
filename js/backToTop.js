@@ -1,4 +1,5 @@
 (function(){
+	
     // Back to Top - by CodyHouse.co
 	var backTop = document.getElementsByClassName('js-cd-top')[0],
 		offset = 300, // browser window scroll (in pixels) after which the "back to top" link is shown
@@ -28,4 +29,15 @@
 		( windowTop > offsetOpacity ) && Util.addClass(backTop, 'cd-top--fade-out');
 		scrolling = false;
 	}
+
+	// HANDLE SCROLL NAVBAR
+	window.addEventListener('scroll', function(){
+        let navHeaderTop = document.getElementById('header__top__container');
+        let navHeader = document.getElementById('scroll-nav');
+        let windowPosition = window.scrollY > 0;
+        navHeader.classList.toggle('scroll-active', windowPosition)
+		
+    })
+
+
 })();

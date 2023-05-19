@@ -102,7 +102,6 @@ a.navbar-brand:hover {
     height: 40px;
     width: 263px;
 }
-
 .navbar .navbar-toggler {
     background-color: #0d369f;
     color: #fff;
@@ -126,7 +125,6 @@ a.navbar-brand:hover {
     background-position: center;
 
 }
-
 .carousel-item:nth-child(2) {
     background-image: url(../images/banner3.jpg);
     height: 747px;
@@ -156,7 +154,6 @@ a.navbar-brand:hover {
     color: #060606;
     font-weight: bold;
 }
-
 .carousel-indicators {
     flex-direction: column;
     /* left: auto;
@@ -208,13 +205,11 @@ a.navbar-brand:hover {
     color: white;
     margin-bottom: 25px;
 }
-
 .card .card-body h4 a {
     color: white;
     font-weight: 600;
     transition: all 0.5s;
 }
-
 .card .card-body h4 a:hover {
     color: #000;
 }

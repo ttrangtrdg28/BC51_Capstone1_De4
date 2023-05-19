@@ -45,7 +45,7 @@ html {
 
 .navbar-nav .nav-item a {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
     color: black;
     transition: all 0.5s;
 }
@@ -75,17 +75,44 @@ a.navbar-brand:hover {
 }
 
 .custom__fixed__top {
-    top: 52px;
+    /* top: 52px; */
+    width: 100%;
     padding: 20px;
-    transition: top 0.5s linear;
 }
 
 .scroll-active {
+    position: fixed;
     top: 0px;
     padding: 8px;
     background-color: #fff;
-    box-shadow: 1px 1px #0000001f;
+    box-shadow: 1px 1px #0000001f;  
+    z-index: 999;
+    
 
+}
+.navbar-nav{
+    padding-right: 20px;
+    justify-content: right;
+    width: 90%;
+}
+.form-control{
+    border-radius: 50px;
+    height: 40px;
+    width: 263px;
+}
+.navbar .navbar-toggler {
+    background-color: #0d369f;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.form-responsive {
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.icon-search {
+    right: 25px;
 }
 
 /* CAROUSEL */
@@ -117,16 +144,62 @@ a.navbar-brand:hover {
     transform: translateY(-192px)
 }
 
-.form-control{
-    border-radius: 50px;
-    height: 40px;
-    width: 263px;
-}
+
 .btn-style{
     border: 1px solid black;
     background-color: #fff;
     color: #060606;
     font-weight: bold;
+}
+.carousel-indicators {
+    flex-direction: column;
+    /* left: auto;
+    right: -240px; */
+    align-items: end;
+    margin: 0;
+    bottom: 40px;
+}
+.carousel-indicators li{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  
+}
+.carousel-indicators li.active {
+    background-color:#ff6e65;
+}
+/* FEATURES */
+.card {
+    text-align: center;
+    
+    padding:25px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    border-radius: 10px;
+}
+.color-1{
+    background-color: #037ef3;
+}
+.color-2{
+    background-color: #ffc949;;
+}
+.color-3{
+    background-color: #ff4f81;
+}
+.color-4{
+    background-color: #1ee697;
+}
+.card .card-body i{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 25px;
+}
+.card .card-body h4 a {
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.card .card-body h4 a:hover {
+    color: #000;
 }
 
 /* STUDIOUS */
@@ -513,3 +586,52 @@ footer {
     font-size: 13px;
     padding: 0;
 }
+
+/************************ REPONSIVE *********************************/
+/* HEADER */
+@media  screen and (max-width:991.85px) {
+    .header-main {
+        width: 100%;
+        height: auto;
+        position: fixed;
+        background: transparent;
+        top: 0;
+        z-index: 99;
+    }
+    .header__top {
+        display: none!important;
+     }
+     .header__bottom {
+        position: relative;
+     }
+     .custom__fixed__top {
+         position: fixed;
+         top: 0;
+ 
+         /* background-color: #fff; */
+         /* box-shadow: 1px 1px #0000001f; */
+         z-index: 999;
+ 
+     }
+     .navbar-nav   {
+         width: 100%;
+         background: #fff;
+         align-items: center;
+     }
+     .form-responsive {
+         width: 100%;
+       
+         background: #fff;
+         justify-content: center;
+     }
+     .icon-moon {
+        position: absolute;
+    top: 37px;
+    right: 90px;
+     }
+     .card {
+        margin-bottom: 20px;
+     }
+    }
+ 
+

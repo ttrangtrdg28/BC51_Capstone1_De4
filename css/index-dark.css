@@ -1,3 +1,40 @@
 body.dark {
     background: #161C2D;
 }
+/* HEADER */
+
+body.dark .header__top {
+    background-color:#4867b0
+}
+body.dark .scroll-active{
+    background-color:#161c2d;
+}
+body.dark .navbar .navbar-brand {
+    color:white;
+}
+body.dark .navbar-nav .nav-item a {
+    color:white;
+}
+body.dark .navbar-nav .nav-item a:hover {
+    color: #ff6e65;
+}
+body.dark .navbar-nav .nav-item.active a {
+    color: #ff6e65;
+}
+body.dark .dropdown-menu {
+    background-color:#161c2d;
+}
+body.dark .navbar-nav .nav-item a{
+    background-color:#161c2d;
+}
+body.dark .form-control{
+    border: 2px solid white;
+    background-color: #161c2d;
+   
+}
+body.dark input::placeholder{
+    color:white;
+}
+body.dark .form-inline i {
+    color: #4867b0;
+}

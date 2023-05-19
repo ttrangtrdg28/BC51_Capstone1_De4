@@ -244,6 +244,32 @@ li {
     align-items: center;
 }
 
+/* NUMBER */
+.number-container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.title h3{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    position: relative;
+}
+.number-container p{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+}
+.timer{
+    font-size: 46px;
+    font-weight: 600;
+}
+.counter-text{
+    text-transform: uppercase;
+}
+
+
 
 
 

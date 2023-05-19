@@ -1,3 +1,90 @@
 body.dark {
     background: #161C2D;
+    color: #fff;
+}
+
+/* HEADER */
+
+body.dark .header__top {
+    background-color: #4867b0
+}
+
+body.dark .scroll-active {
+    background-color: #161c2d;
+}
+
+body.dark .navbar .navbar-brand {
+    color: white;
+}
+
+body.dark .navbar-nav .nav-item a {
+    color: white;
+}
+
+body.dark .navbar-nav .nav-item a:hover {
+    color: #ff6e65;
+}
+
+body.dark .navbar-nav .nav-item.active a {
+    color: #ff6e65;
+}
+
+body.dark .dropdown-menu {
+    background-color: #161c2d;
+}
+
+body.dark .navbar-nav .nav-item a {
+    background-color: #161c2d;
+}
+
+body.dark .form-control {
+    border: 2px solid white;
+    background-color: #161c2d;
+
+}
+
+body.dark input::placeholder {
+    color: white;
+}
+
+body.dark .form-inline i {
+    color: #4867b0;
+}
+
+
+/* INSTRUCTOR  */
+body.dark .instructor .card {
+    box-shadow: 0 20px 62px hsla(222, 34%, 17%, 1);
+    background-color: transparent;
+}
+
+body.dark .instructor__name a {
+    color: #fdfffc;
+}
+
+body.dark .instructor .card-body p {
+    color: #b7b7b7;
+}
+
+/* CONTACT */
+body.dark .contact p {
+    color: #b7b7b7;
+}
+
+/* FOOTER */
+body.dark .footer__sub {
+    background: #161C2D;
+}
+
+body.dark .footer__sub .footer__sub__title h1 {
+    color: #fff;
+}
+
+body.dark .footer__sub .footer__sub__title p {
+    color: #b7b7b7;
+}
+
+body.dark .footer__sub .footer__form input {
+    color: #fdfffc;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }

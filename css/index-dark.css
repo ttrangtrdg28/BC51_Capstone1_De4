@@ -1,10 +1,13 @@
 body.dark {
     background: #161C2D;
+}
+
+body.dark .title,
+body.dark .contact__title {
     color: #fff;
 }
 
 /* HEADER */
-
 body.dark .header__top {
     background-color: #4867b0
 }
@@ -21,14 +24,6 @@ body.dark .navbar-nav .nav-item a {
     color: white;
 }
 
-body.dark .navbar-nav .nav-item a:hover {
-    color: #ff6e65;
-}
-
-body.dark .navbar-nav .nav-item.active a {
-    color: #ff6e65;
-}
-
 body.dark .dropdown-menu {
     background-color: #161c2d;
 }
@@ -40,7 +35,6 @@ body.dark .navbar-nav .nav-item a {
 body.dark .form-control {
     border: 2px solid white;
     background-color: #161c2d;
-
 }
 
 body.dark input::placeholder {

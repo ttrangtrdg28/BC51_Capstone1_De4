@@ -376,8 +376,8 @@ li {
 /* NUMBER */
 .number-container {
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 .title h3 {
@@ -409,6 +409,10 @@ li {
     border-radius: 4px;
     box-shadow: 0 20px 62px #0414451a;
     padding: 2rem
+}
+.testimonials i{
+    font-size: 22px;
+    line-height: 17px;
 }
 .testimonials p{
     font-size: 16px;

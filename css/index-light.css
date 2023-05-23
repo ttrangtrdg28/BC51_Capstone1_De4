@@ -123,7 +123,7 @@ a.navbar-brand:hover {
 .scroll-active {
     position: fixed;
     top: 0px;
-    padding: 8px;
+    padding: 8px 20px;
     background-color: #fff;
     box-shadow: 1px 1px #0000001f;
     z-index: 999;
@@ -154,7 +154,13 @@ a.navbar-brand:hover {
     margin-right: 10px;
 }
 
+.form-responsive:hover i {
+    color: #ff6e65;
+    cursor: pointer;
+}
+
 .icon-search {
+    color: #0d369f;
     right: 25px;
 }
 
@@ -197,12 +203,15 @@ a.navbar-brand:hover {
     font-weight: bold;
 }
 
+.btn-style:hover {
+    background-color: #ff6e65;
+    color: #fff;
+}
+
 .carousel-indicators {
     flex-direction: column;
-    /* left: auto;
-    right: -240px; */
+    margin-right: 25px;
     align-items: end;
-    margin: 0;
     bottom: 40px;
 }
 
@@ -421,8 +430,8 @@ li {
 /* NUMBER */
 .number-container {
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 .title h3 {
@@ -454,6 +463,11 @@ li {
     border-radius: 4px;
     box-shadow: 0 20px 62px #0414451a;
     padding: 2rem
+}
+
+.testimonials i {
+    font-size: 22px;
+    line-height: 17px;
 }
 
 .testimonials p {

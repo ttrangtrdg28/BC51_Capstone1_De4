@@ -44,6 +44,48 @@ body.dark input::placeholder {
 body.dark .form-inline i {
     color: #4867b0;
 }
+/* STUDIOUS */
+body.dark .studious-main{
+    background-color: black;
+}
+body.dark .feature-info{
+    color: #b7b7b7;
+}
+
+/* SERVICES */
+body.dark .services-content .text{
+    background-color: #161c2d;
+    color: white;
+}
+body.dark .icon-info p{
+    color: #b7b7b7;
+}
+
+/* NUMBER */
+body.dark .title-main p{
+    color: #b7b7b7;
+}
+body.dark .timer{
+    color: white;
+}
+body.dark .counter-text{
+    color: white;
+}
+
+/* FEEDBACK */
+body.dark .feeedback-outside{
+    background-color: #1d253a;
+}
+body.dark .testimonials{
+    background-color:#161c2d;
+}
+body.dark .testimonials p{
+    color:#b7b7b7 ;
+}
+
+body.dark .text-left h5{
+    color: white;
+}
 
 
 /* INSTRUCTOR  */

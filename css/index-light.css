@@ -186,26 +186,22 @@ a.navbar-brand:hover {
     line-height: 80px;
     font-weight: bold;
     color: #fff;
+}
 
+.carousel-caption .btn-style {
+    background-color: #fff;
+    color: #060606;
+}
+
+.carousel-caption .btn-style:hover {
+    background-color: #ff6e65;
+    color: #fff;
 }
 
 .caption__text {
     width: 100%;
     text-align: left;
     transform: translateY(-192px)
-}
-
-
-.btn-style {
-    border: 1px solid black;
-    background-color: #fff;
-    color: #060606;
-    font-weight: bold;
-}
-
-.btn-style:hover {
-    background-color: #ff6e65;
-    color: #fff;
 }
 
 .carousel-indicators {
@@ -219,7 +215,7 @@ a.navbar-brand:hover {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-
+    margin-right: 10px;
 }
 
 .carousel-indicators li.active {

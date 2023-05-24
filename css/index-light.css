@@ -584,6 +584,10 @@ a.navbar-brand:hover {
     border-radius: 0px 8px 8px 0px;
 }
 
+.footer__sub .footer__form .btn-style:hover {
+    opacity: 0.9;
+}
+
 .footer__content {
     margin-top: 120px;
 }
@@ -727,12 +731,15 @@ a.navbar-brand:hover {
         top: 0;
         z-index: 99;
     }
+
     .header__top {
         display: none !important;
     }
+
     .header__bottom {
         position: relative;
     }
+
     .custom__fixed__top {
         position: fixed;
         top: 0;
@@ -740,21 +747,25 @@ a.navbar-brand:hover {
         /* box-shadow: 1px 1px #0000001f; */
         z-index: 999;
     }
+
     .navbar-nav {
         width: 100%;
         background: #fff;
         align-items: center;
     }
+
     .form-responsive {
         width: 100%;
         background: #fff;
         justify-content: center;
     }
+
     .icon-moon {
         position: absolute;
         top: 37px;
         right: 90px;
     }
+
     .card {
         margin-bottom: 20px;
     }
